@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+   <form method="post" action="/UserAd">
+    <br>
+    <label>Ürün Adı:</label>
+     <br>
+     <br>
+    <input type="text" name="Product_Name">
+     <br>
+     <br>
+    <label>Ürün Stok Adedi: </label>
+    <br>
+     <br>
+     <input type="text" name="Product_Stock">
+     <br>
+     <br>
+     <label>Ürün Fiyatı:</label>
+     <br>
+     <br>
+     <input type="tel" name="Product_Price">
+     <br>
+     <br>
+
+
+     <input type="submit" value="Kaydet">
+
+
+   </form>
+
+
+  </body>
+</html>
